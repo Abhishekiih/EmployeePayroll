@@ -43,8 +43,14 @@ public class EmployeeService {
     }
 
     // Delete an employee
-    public void deleteEmployee(Long id) {
-        employeeRepository.deleteById(id);
+    public boolean deleteEmployee(Long id) {
+        Optional<Employee> employee = employeeRepository.findById(id);
+        if (employee.isPresent()) {
+            employeeRepository.deleteById(id);
+            return true;  // Successfully deleted
+        }
+        return false;  // Employee not found
     }
+
 }
 
