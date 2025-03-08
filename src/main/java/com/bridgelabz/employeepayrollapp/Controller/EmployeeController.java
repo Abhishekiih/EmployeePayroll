@@ -5,6 +5,7 @@ import com.bridgelabz.employeepayrollapp.model.Employee;
 import com.bridgelabz.employeepayrollapp.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -50,9 +51,11 @@ public class EmployeeController {
     }
 
     // DELETE: Remove an employee
-    public void deleteEmployee(@PathVariable Long id) {
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteEmployee(@PathVariable Long id) {
         if (!employeeService.deleteEmployee(id)) {
             throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
         }
+        return ResponseEntity.ok("Employee deleted successfully");
     }
 }
