@@ -1,30 +1,93 @@
-2025-03-08T10:31:38.894+05:30  INFO 960 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 960 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
-2025-03-08T10:31:38.897+05:30 DEBUG 960 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-08T10:31:38.898+05:30  INFO 960 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
-2025-03-08T10:31:42.465+05:30  WARN 960 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-08T10:31:42.848+05:30  INFO 960 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 4.467 seconds (process running for 5.116)
-2025-03-08T10:47:19.477+05:30  INFO 7920 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 7920 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
-2025-03-08T10:47:19.480+05:30 DEBUG 7920 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-08T10:47:19.481+05:30  INFO 7920 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
-2025-03-08T10:47:22.655+05:30  WARN 7920 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-08T10:47:23.087+05:30  INFO 7920 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 4.107 seconds (process running for 4.579)
-2025-03-08T11:35:22.560+05:30  INFO 7880 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 7880 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
-2025-03-08T11:35:22.560+05:30 DEBUG 7880 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-08T11:35:22.560+05:30  INFO 7880 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
-2025-03-08T11:35:27.777+05:30  WARN 7880 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-08T11:35:28.360+05:30  INFO 7880 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 6.688 seconds (process running for 7.837)
-2025-03-08T13:29:59.676+05:30  INFO 3040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 3040 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
-2025-03-08T13:29:59.678+05:30 DEBUG 3040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-08T13:29:59.679+05:30  INFO 3040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
-2025-03-08T13:30:03.764+05:30  WARN 3040 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-08T13:30:04.322+05:30  INFO 3040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.275 seconds (process running for 5.892)
-2025-03-08T13:30:39.822+05:30  WARN 3040 --- [employeepayrollapp] [http-nio-8084-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: Employee with ID 1 not found]
-2025-03-08T13:31:20.295+05:30  WARN 3040 --- [employeepayrollapp] [http-nio-8084-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: Employee with ID 1 not found]
-2025-03-08T13:31:27.941+05:30  WARN 3040 --- [employeepayrollapp] [http-nio-8084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
-2025-03-08T13:51:14.840+05:30  INFO 18932 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 18932 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
-2025-03-08T13:51:14.843+05:30 DEBUG 18932 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-08T13:51:14.843+05:30  INFO 18932 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
-2025-03-08T13:51:18.967+05:30  WARN 18932 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-08T13:51:19.486+05:30  INFO 18932 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.328 seconds (process running for 5.936)
-2025-03-08T13:51:27.854+05:30  WARN 18932 --- [employeepayrollapp] [http-nio-8084-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: Employee with ID 1 not found]
-2025-03-08T13:53:37.289+05:30  WARN 18932 --- [employeepayrollapp] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: Employee with ID 1 not found]
+2025-03-09T09:51:20.449+05:30  INFO 8556 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 8556 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
+2025-03-09T09:51:20.458+05:30 DEBUG 8556 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-09T09:51:20.459+05:30  INFO 8556 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T09:51:24.582+05:30  WARN 8556 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-09T09:51:25.092+05:30  INFO 8556 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.272 seconds (process running for 5.961)
+2025-03-09T09:52:09.271+05:30  WARN 8556 --- [employeepayrollapp] [http-nio-8084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Employee not found with ID: 34]
+2025-03-09T09:52:20.728+05:30  WARN 8556 --- [employeepayrollapp] [http-nio-8084-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error deleting employee: Employee not found with ID: 45]
+2025-03-09T09:57:09.003+05:30  INFO 7484 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 7484 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
+2025-03-09T09:57:09.005+05:30 DEBUG 7484 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-09T09:57:09.006+05:30  INFO 7484 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T09:57:12.995+05:30  WARN 7484 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-09T09:57:13.545+05:30  INFO 7484 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.157 seconds (process running for 5.721)
+2025-03-09T09:57:17.798+05:30  WARN 7484 --- [employeepayrollapp] [http-nio-8084-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error updating employee: Error updating employee: Employee not found with ID: 24]
+2025-03-09T09:57:26.430+05:30  WARN 7484 --- [employeepayrollapp] [http-nio-8084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error deleting employee: Employee not found with ID: 45]
+2025-03-09T09:57:30.170+05:30  WARN 7484 --- [employeepayrollapp] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Employee not found with ID: 34]
+2025-03-09T10:15:34.336+05:30  INFO 8840 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 8840 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
+2025-03-09T10:15:34.336+05:30 DEBUG 8840 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-09T10:15:34.336+05:30  INFO 8840 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T10:15:38.324+05:30  WARN 8840 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-09T10:15:38.795+05:30  INFO 8840 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.138 seconds (process running for 5.763)
+2025-03-09T10:18:35.442+05:30 ERROR 8840 --- [employeepayrollapp] [http-nio-8084-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Employee not found with ID: 17] with root cause
+
+java.lang.RuntimeException: Employee not found with ID: 17
+	at com.bridgelabz.employeepayrollapp.service.EmployeeService.lambda$getEmployeeById$0(EmployeeService.java:29) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.bridgelabz.employeepayrollapp.service.EmployeeService.getEmployeeById(EmployeeService.java:29) ~[classes/:na]
+	at com.bridgelabz.employeepayrollapp.Controller.EmployeeController.getEmployeeById(EmployeeController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-03-09T10:23:17.013+05:30  INFO 4232 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 4232 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
+2025-03-09T10:23:17.013+05:30 DEBUG 4232 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-09T10:23:17.013+05:30  INFO 4232 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T10:23:21.353+05:30  WARN 4232 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-09T10:23:21.907+05:30  INFO 4232 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 5.519 seconds (process running for 6.077)
+2025-03-09T10:23:28.177+05:30  WARN 4232 --- [employeepayrollapp] [http-nio-8084-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Employee not found with ID: 17]
+2025-03-09T10:23:45.112+05:30  WARN 4232 --- [employeepayrollapp] [http-nio-8084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Employee not found with ID: 17]
+2025-03-09T10:23:49.919+05:30  WARN 4232 --- [employeepayrollapp] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error updating employee: Error updating employee: Employee not found with ID: 24]
+2025-03-09T10:23:55.416+05:30  WARN 4232 --- [employeepayrollapp] [http-nio-8084-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error deleting employee: Employee not found with ID: 45]
+2025-03-09T10:25:28.663+05:30  INFO 12040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 18.0.1.1 with PID 12040 (C:\Users\ASUS\Desktop\employeepayrollapp\target\classes started by root in C:\Users\ASUS\Desktop\employeepayrollapp)
+2025-03-09T10:25:28.678+05:30 DEBUG 12040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-09T10:25:28.678+05:30  INFO 12040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-03-09T10:25:32.503+05:30  WARN 12040 --- [employeepayrollapp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-09T10:25:32.989+05:30  INFO 12040 --- [employeepayrollapp] [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 4.972 seconds (process running for 5.6)
+2025-03-09T10:25:39.187+05:30  WARN 12040 --- [employeepayrollapp] [http-nio-8084-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Employee not found with ID: 17]
+2025-03-09T10:25:43.014+05:30  WARN 12040 --- [employeepayrollapp] [http-nio-8084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error updating employee: Error updating employee: Employee not found with ID: 24]
+2025-03-09T10:25:48.047+05:30  WARN 12040 --- [employeepayrollapp] [http-nio-8084-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Error deleting employee: Employee not found with ID: 45]

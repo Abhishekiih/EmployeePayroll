@@ -1,13 +1,12 @@
 package com.bridgelabz.employeepayrollapp.dto;
 
-import lombok.*;
-
-
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 
-@Data
+@Data  // ✅ Includes @Getter, @Setter, @ToString, @EqualsAndHashCode
+@NoArgsConstructor  // ✅ Ensures a no-argument constructor for Spring & Jackson
 public class EmployeeDTO {
 
     private String department;
@@ -18,10 +17,10 @@ public class EmployeeDTO {
 
     private double salary;
 
+    // ✅ Constructor with Parameters
     public EmployeeDTO(String department, String name, double salary) {
         this.department = department;
         this.name = name;
         this.salary = salary;
     }
 }
-
